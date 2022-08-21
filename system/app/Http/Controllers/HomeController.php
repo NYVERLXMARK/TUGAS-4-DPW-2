@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 class HomeController extends Controller{
 
     function showBeranda(){
-        return view('index');
+        return view('template.base');
     }
 
     function showPC(){
